@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5b2965c-8d40-47eb-8824-7e2853cd0abb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sparta/jn/apitesting/pojo/Rates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/sparta/jn/apitesting/pojo/RatesPojoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/jn/apitesting/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/jn/apitesting/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/jn/apitesting/pojo/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/jn/apitesting/pojo/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/jn/apitesting/pojo/RatesPojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/jn/apitesting/pojo/RatesPojo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/sparta/jn/apitesting/pojo/RatesTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sparta/jn/apitesting/pojo/RatesPojoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sparta/jn/apitesting/pojo/RatesPojoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,19 +49,6 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.RatesPojoTest.checkSuccessFieldIsOfFalse">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sparta.jn.apitesting.pojo.App" />
-      <module name="ApiTesting" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sparta.jn.apitesting.pojo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RatesPojoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ApiTesting" />
       <extension name="coverage">
@@ -115,6 +96,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RatesPojoTest.checkThatNoneOfTheFieldAreNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ApiTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sparta.jn.apitesting.pojo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sparta.jn.apitesting.pojo" />
+      <option name="MAIN_CLASS_NAME" value="com.sparta.jn.apitesting.pojo.RatesPojoTest" />
+      <option name="METHOD_NAME" value="checkThatNoneOfTheFieldAreNull(java.lang.Object)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RatesPojoTest.testRatesPojoIsInstantiatedProperly" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ApiTesting" />
       <extension name="coverage">
@@ -134,10 +131,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.RatesPojoTest.checkSuccessFieldIsOfFalse" />
+        <item itemvalue="JUnit.RatesPojoTest.checkThatNoneOfTheFieldAreNull" />
         <item itemvalue="JUnit.RatesPojoTest.checkSuccessFieldIsOfBoolean" />
         <item itemvalue="JUnit.RatesPojoTest" />
         <item itemvalue="JUnit.RatesPojoTest.testRatesPojoIsInstantiatedProperly" />
-        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>

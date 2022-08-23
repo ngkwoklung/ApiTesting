@@ -1,14 +1,16 @@
 package com.sparta.jn.apitesting.pojo;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import org.hamcrest.MatcherAssert;
-import org.hamcrest.Matchers;
 import org.junit.jupiter.api.*;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.Arguments;
+import org.junit.jupiter.params.provider.MethodSource;
+import org.junit.jupiter.params.provider.NullAndEmptySource;
 import org.mockito.Mockito;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.Arrays;
+import java.util.stream.Stream;
 
 public class RatesPojoTest {
     private static RatesPojo ratesPojo;
@@ -54,4 +56,20 @@ public class RatesPojoTest {
         Assertions.assertFalse(spyRatesPojo.isSuccess());
     }
 
+    
+
+//    @ParameterizedTest
+//    @MethodSource("getAllFields")
+//    @NullAndEmptySource
+//    @DisplayName("Check that none of the field are null")
+//    void checkThatNoneOfTheFieldAreNull(Object field) {
+//
+//    }
+//
+//    public static Stream<Arguments> getAllFields(){
+//        return Stream.of(Arguments.of(ratesPojo.getTimestamp()),
+//                Arguments.of(ratesPojo.getBase()),
+//                Arguments.of(ratesPojo.getDate()),
+//                Arguments.of(ratesPojo.getRates()));
+//    }
 }
